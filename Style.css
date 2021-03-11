@@ -104,7 +104,7 @@ scroll-behavior: smooth;
 /* home section styling*/
 .home{
   display: flex;
-  background: url("/data/1111.PNG") no-repeat center;
+  background: url("/data/fondo.jpg") no-repeat center;
   height: 100vh;
   color: #fff;
   background-size: cover;
