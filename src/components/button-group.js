@@ -3,9 +3,7 @@ import { jsx, Box, Container, Flex } from 'theme-ui';
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io';
 
 export default function ButtonGroup({ next, previous }) {
-  return (
-    <h1>ButtonGroup</h1>
-  );
+  return <div></div>;
 }
 
 const styles = {
