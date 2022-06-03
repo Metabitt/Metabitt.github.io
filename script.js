@@ -11,6 +11,7 @@ $(document).ready(function () {
       $('.scroll-up-btn').removeClass('show');
     }
   });
+
   //slide-up script
   $('.scroll-up-btn').click(function () {
     $('html').animate({ scrollTop: 0 });
@@ -39,5 +40,14 @@ $(document).ready(function () {
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
+  });
+
+  //prevents the submit button from being pressed more than once
+  var submitButton = document.getElementById("submit_form");
+  var form = document.getElementById("email_form");
+  form.addEventListener("submit", function (e) {
+      setTimeout(function() {
+          submitButton.value = "Sending...";
+          submitButton.disabled = true;
   });
 });
